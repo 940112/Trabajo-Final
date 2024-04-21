@@ -18,7 +18,7 @@ body{ font-family: "Poppins", sans-serif;  }
 
 
 .header {
-    background-image: url(/images/pg);
+    background-image: url(/public/images/pg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
