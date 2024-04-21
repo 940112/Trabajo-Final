@@ -18,7 +18,7 @@ body{ font-family: "Poppins", sans-serif;  }
 
 
 .header {
-    background-image: url(/public/images/pg);
+    background-image: url(/images/pg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,6 +26,7 @@ body{ font-family: "Poppins", sans-serif;  }
     display: flex;
     align-items: center;
 }
+
 
 .menu {
     position: absolute;
@@ -232,3 +233,66 @@ form {
 
 
  }
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    width: 800px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+ text-align: center;
+}
+
+form h2 {
+    font-size: 30px;
+    color:rgb(5, 5, 5);
+    margin-bottom: 35px;
+}
+
+input {
+    padding: 17px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid rgb(5, 5, 5);
+    margin-bottom: 30px;
+    outline: none;
+    color: rgb(8, 8, 8);
+    font-size: 16px;
+}
+
+::placeholder {
+    color: #080808;
+}
+.btn {
+    background-color: #02fcefa8;
+    border: 2px solid #02fcefa8;
+cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #8780e5;
+    border: 2px solid #8780e5;
+}
+
+@media (max-width:991px) {
+    body {
+        padding: 30px;
+    }
+
+    form {
+        width: 340px;
+    }
+}
+
+
+
+
