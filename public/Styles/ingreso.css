@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url(/images/fondoingresa.jpg);
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url(/images/pg);
     background-size: cover;
 }
 .container {
@@ -14,7 +14,7 @@ body{
 
 .container nav {
     width: 100%;
-    height: 90px;
+    height: 160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,13 +34,13 @@ body{
     font-size: 42px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    color: brown;
+    color: rgb(10, 10, 10);
     transition: 500ms;
 
 }
 
 .container nav .logo a:hover {
-    color: brown;
+    color: rgb(15, 15, 15);
     transition: 500ms;
 }
 
@@ -84,7 +84,7 @@ body{
 
 .container nav .lists ul .active a,
 .container nav .lists ul li:hover a {
-    color: aqua;
+    color: rgb(247, 0, 0);
     transition: 500ms;
 }
 .container nav .search {
@@ -187,11 +187,11 @@ body{
 }
 
 .content .left button {
-    width: 75%;
+    width: 120%;
     height: 60px;
-    border: 2px solid rgb(235, 12, 12);
+    border: 2px solid rgb(14, 13, 13);
     border-radius: 10px;
-    background: rgb(199, 63, 63);
+    background: rgb(248, 248, 248);
     cursor: pointer;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
