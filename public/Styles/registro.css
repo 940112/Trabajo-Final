@@ -51,7 +51,8 @@ body{ font-family: "Poppins", sans-serif;  }
     padding: 20px;
     color: black;
     display: block;
-    font-weight: 600;
+    font-weight: 800;
+   
 }
 
 
@@ -92,7 +93,7 @@ width: 25px;
 .btn-1 { 
     display: inline-block;
     padding: 12px 45px;
-    border: 1px solid white;
+    border: 1px solid rgb(17, 16, 16);
     color: rgb(8, 8, 8);
     font-size: 16px;
     text-transform: uppercase;
@@ -289,7 +290,7 @@ cursor: pointer;
     }
 
     form {
-        width: 340px;
+        width: 990px;
     }
 }
 
