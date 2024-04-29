@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REGISTRO</title>
     <link rel="stylesheet" href="./Styles/registro.css">
+
+    <script src="./scripts/registro.js" defer></script>
+
 </head>
 <body>
     
@@ -12,7 +15,7 @@
     <div class="menu container">
 <input type="checkbox" id="menu">
 <label for="menu">
-    <img src="./images/menu.png" class="menu-icono" alt="">
+    <img src="./images/fondoingresa.jpg" class="menu-icono" alt="">
 </label>
 <nav class="navbar">
 <ul>
@@ -25,12 +28,10 @@
     
     <form>
         <h2>Registro</h2>
-        <input type="text" placeholder="Nombres">
-        <input type="text" placeholder="Apellidos">
-        <input type="email" placeholder="Correo">
-        <input type="password" placeholder="Contraseña">
-        <input type="password" placeholder="Confirmar contraseña">
-        <input type="submit" class="btn" value="Registrarme">
+        <input type="text" placeholder="Nombre Completo" id="nombreCompleto"/>
+        <input type="email" placeholder="Correo" id="correo"/>
+        <input type="password" placeholder="Contraseña" id="contrasena"/>
+        <input type="submit" class="btn" value="Registrarme" onclick="registrarUsuario()"/> 
             </form>
         
 </header>
