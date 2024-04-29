@@ -1,7 +1,8 @@
 console.log('hola soy registro');
 
-const registrarUsuario = async () => {
+const registrarUsuario = async (event) => {
 
+    event.preventDefault();
     const nombreCompleto = document.getElementById('nombreCompleto').value;
     const correo = document.getElementById('correo').value;
     const contrasena = document.getElementById('contrasena').value;

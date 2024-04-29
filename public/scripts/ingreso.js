@@ -1,8 +1,8 @@
 console.log('hola soy ingreso');
 
-const iniciarSesion = async () => {
+const iniciarSesion = async (event) => {
 
-
+    event.preventDefault();
     const correo = document.getElementById('correo').value;
     const contrasena = document.getElementById('contrasena').value;
 
